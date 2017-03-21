@@ -1,3 +1,40 @@
-
+.container .monHeader {
+  background-color: #281400; }
+  .container .monHeader ul {
+    display: flex;
+    justify-content: center; }
+    .container .monHeader ul li {
+      list-style: none;
+      padding: 0 1em; }
+      .container .monHeader ul li a {
+        color: #b5aea7; }
+      .container .monHeader ul li:first-child {
+        color: white; }
+  .container .monHeader h1 {
+    margin-top: 15rem;
+    color: white;
+    font-family: serif; }
+  .container .monHeader p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: serif; }
+  .container .monHeader button {
+    background-color: #a28f61;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-bottom: 15rem; }
+.container .monMain img {
+  box-shadow: 0px 2px 2px #888888;
+  margin: 1em; }
+.container .monFooter {
+  background-color: #0f3e57; }
+  .container .monFooter section {
+    display: flex;
+    justify-content: space-around; }
+    .container .monFooter section ul li {
+      list-style: none;
+      color: #b1b1b1; }
 
 /*# sourceMappingURL=style.css.map */
