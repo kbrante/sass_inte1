@@ -1,0 +1,21 @@
+{
+  "name": "sass_inte",
+  "homepage": "https://github.com/kbrante/sass_inte1",
+  "authors": [
+    "karina BRANTE <karina.brante@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/external/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
