@@ -1,40 +1,50 @@
-.container .monHeader {
+.monHeader {
   background-color: #281400; }
-  .container .monHeader ul {
+  .monHeader ul {
     display: flex;
     justify-content: center; }
-    .container .monHeader ul li {
+    .monHeader ul li {
       list-style: none;
       padding: 0 1em; }
-      .container .monHeader ul li a {
+      .monHeader ul li a {
         color: #b5aea7; }
-      .container .monHeader ul li:first-child {
-        color: white; }
-  .container .monHeader h1 {
+  .monHeader h1 {
     margin-top: 15rem;
     color: white;
     font-family: serif; }
-  .container .monHeader p {
+  .monHeader h2 {
     color: white;
     font-size: 25px;
     font-weight: bold;
     font-family: serif; }
-  .container .monHeader button {
+  .monHeader button {
     background-color: #a28f61;
     border: none;
     padding: 0.5em 1em;
     border-radius: 0.5em;
     margin-bottom: 15rem; }
-.container .monMain img {
-  box-shadow: 0px 2px 2px #888888;
-  margin: 1em; }
-.container .monFooter {
+
+.monMain .col-md-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .monMain .col-md-12 article {
+    margin: 1em;
+    box-shadow: 0px 0px 2px #333;
+    padding: 0.5em; }
+    .monMain .col-md-12 article h3 {
+      color: #a28f61; }
+
+.monFooter {
   background-color: #0f3e57; }
-  .container .monFooter section {
+  .monFooter section {
     display: flex;
     justify-content: space-around; }
-    .container .monFooter section ul li {
+    .monFooter section ul li {
       list-style: none;
-      color: #b1b1b1; }
+      color: #b1b1b1;
+      margin: 1em; }
+      .monFooter section ul li:first-child {
+        color: white; }
 
 /*# sourceMappingURL=style.css.map */
