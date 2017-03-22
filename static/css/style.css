@@ -24,6 +24,8 @@
     border-radius: 0.5em;
     margin-bottom: 15rem; }
 
+.monMain table {
+  margin: auto; }
 .monMain .col-md-12 article {
   margin: 1em;
   box-shadow: 0px 0px 2px #333;
@@ -53,5 +55,14 @@
     margin: 1em; }
     .monFooter .col-md-3 ul li:first-child {
       color: white; }
+
+@media (max-width: 700px) {
+  section {
+    flex-direction: column; }
+    section article {
+      width: 90%; }
+      section article img {
+        width: 100%;
+        height: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
