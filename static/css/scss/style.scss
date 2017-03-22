@@ -38,9 +38,6 @@ $color_link: #a28f61;
     }
 }
 .monMain{
-    table{
-        margin: auto;
-    }
     .col-md-12{
         article{
 
@@ -95,6 +92,7 @@ $color_link: #a28f61;
     }
 }
 @media (max-width: 700px) {
+
     section{
         flex-direction: column;
         article{
