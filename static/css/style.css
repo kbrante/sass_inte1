@@ -24,6 +24,8 @@
     border-radius: 0.5em;
     margin-bottom: 15rem; }
 
+.monMain table td, .monMain table th {
+  text-align: center; }
 .monMain .col-md-12 article {
   margin: 1em;
   box-shadow: 0px 0px 2px #333;
