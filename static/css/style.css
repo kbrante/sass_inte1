@@ -24,7 +24,9 @@
     border-radius: 0.5em;
     margin-bottom: 15rem; }
 
-.monMain table td, .monMain table th {
+.monMain tr:last-child {
+  font-weight: bold; }
+.monMain tr td, .monMain tr th {
   text-align: center; }
 .monMain .col-md-12 article {
   margin: 1em;
@@ -53,7 +55,7 @@
     list-style: none;
     color: #b1b1b1;
     margin: 1em; }
-    .monFooter .col-md-3 ul li:first-child {
+    .monFooter .col-md-3 ul li:first-child, .monFooter .col-md-3 ul li a {
       color: white; }
 
 @media (max-width: 700px) {

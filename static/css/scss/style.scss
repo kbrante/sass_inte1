@@ -38,9 +38,13 @@ $color_link: #a28f61;
     }
 }
 .monMain{
-    table{
+    tr{
+        &:last-child{
+            font-weight: bold;
+        }
         td,th{
             text-align: center;
+
         }
     }
     .col-md-12{
@@ -89,7 +93,7 @@ $color_link: #a28f61;
                 list-style: none;
                 color:#b1b1b1;
                 margin: 1em;
-                &:first-child{
+                &:first-child,a{
                     color: $color_text;
                 }
             }
