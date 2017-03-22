@@ -29,7 +29,7 @@
   box-shadow: 0px 0px 2px #333;
   padding: 1em; }
   .monMain .col-md-12 article img {
-    text-align: center; }
+    margin: 0 auto; }
   .monMain .col-md-12 article h3 {
     color: #a28f61; }
     .monMain .col-md-12 article h3 a {
